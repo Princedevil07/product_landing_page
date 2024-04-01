@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.contain-container{
+  background-image: url(https://media.istockphoto.com/photos/barbell-picture-id1136685879?k=6&m=1136685879&s=612x612&w=0&h=TZ08f4DZHRNqGStkfcOSB4KRFEN5Nmy4HvoBdfUuGCA=) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+  text-align: center;
+}
+
+.justify-between {
+  justify-content:space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.logoo {
+  color: yellow;
+  font-size: 47px;
+}  
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Apply the rotation animation to the logo */
+.rotate {
+  animation: rotateAnimation 4s linear infinite; /* Adjust duration and timing as needed */
+  height: 20vh;
+  width: 20vh;
+}
+
+#navbar{
+  display:block;
+}
+
+.navbar a{
+  margin: 12px;
+  font-size: 25px;
+  color: black;
+  background-color: yellow;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 3px 22px;
+}
+
+
+img {
+  max-width: 59%;
+  height: auto;
+}
+
+footer{
+  text-align: center;
+}
+

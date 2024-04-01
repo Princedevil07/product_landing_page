@@ -1,0 +1,113 @@
+.section1111{
+    font-size: 60px;
+    color: white;
+    
+}
+
+.section1122{
+    line-height: 1.5rem;
+    color: white;
+}
+
+.my-1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.section2{
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 75vh;
+}
+
+.section2 p{
+   font-size: 20px;
+   text-align: center;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.highlight{
+    font-size: 1.3rem;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.section1 {
+    height: 112vh;
+}
+
+.topright{
+    width: 50%;
+    text-align: center;
+    width: 1500px;
+    color: rgb(252, 241, 29);
+    font-size: 30px;
+}
+
+.topleft{
+    width: 50%;
+    color: white;
+    text-align: center;
+    width: 1000px;
+}
+
+.topleft1111 {
+    font-size: 45px;
+}
+
+.large-button {
+    font-size: 20px;
+    padding: 10px 17px;
+    border: 2px solid rgb(255, 251, 0);
+    border-radius: 12cm;
+    color: rgb(10, 10, 248);
+    background-color: rgb(250, 246, 7);
+}    
+
+
+
+.text-container {
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    20% {
+      width: 100%;
+    }
+    80% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  #text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(20, end) infinite;
+  }
+
+
+
+  

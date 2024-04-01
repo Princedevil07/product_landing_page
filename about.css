@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(250, 232, 101);
+}
+
+.first{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(248, 89, 92);
+    text-align: center;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.top{
+    width: 95%;
+    padding: 40px;
+}
+
+.resized-img {
+    padding: 60px;
+    width: 350px;
+    height: 350px;
+}
+
+.pp{
+    text-align: center;
+}
